@@ -3,7 +3,6 @@ import NavItem from "./NavItem";
 import {
   CalendarEvent,
   Chat,
-  Wallet,
   InfoCircle,
   Person,
   Sliders2,
@@ -14,31 +13,31 @@ function SidebarNavItems() {
       <NavItem
         icon={<InfoCircle className="text-light font-light" />}
         title="Overview"
-        idx={1}
+        to='overview'
         
       />
       <NavItem
         icon={<CalendarEvent />}
         title="Calendar"
-        idx="2"
+        to='/dashboard/calendar'
         
       />
       <NavItem
         icon={<Person />}
         title="Patient List"
-        idx="3"
+        to='/dashboard/patientlist'
         
       />
       <NavItem
         icon={<Chat />}
         title="Messages"
-        idx="4"
+        to={'/dashboard/messages'}
         
       />
       <NavItem
         icon={<Sliders2 />}
         title="Setting"
-        idx="6"
+        to={'/dashboard/setting'}
         
       />
     </div>

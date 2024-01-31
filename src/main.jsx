@@ -6,6 +6,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import About from './components/About.jsx'
 import Hero from './components/Hero.jsx'
 import Dashboard from './Pages/Doctor/Dashboard.jsx'
+import Overview from './Pages/Doctor/Overview/Overview.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -13,10 +14,14 @@ const router = createBrowserRouter(
       <Route path='' element={<Hero />} />
       <Route path='about' element={<About />} />
     </Route>
-    <Route path="/dashboard" element={<Dashboard />} /> 
+    <Route path="/dashboard" element={<Dashboard />} > 
+      <Route path='overview' element={<Overview />} />
+      
+    </Route>
     </>
     
   )
+  
 )
 
 

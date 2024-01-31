@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Sales",
+    "data": [1200, 1500, 900, 1800, 2000, 1400],
+    "backgroundColor": "rgba(54, 162, 235, 0.5)"
+  },
+  {
+    "label": "Expenses",
+    "data": [800, 1000, 700, 1200, 1500, 1000],
+    "backgroundColor": "rgba(255, 99, 132, 0.5)"
+  }
+]

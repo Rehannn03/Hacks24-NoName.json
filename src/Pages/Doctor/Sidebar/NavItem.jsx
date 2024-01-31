@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-
-function NavItem({ icon, title, idx}) {
+import { Link } from "react-router-dom";
+function NavItem({ icon, title, to}) {
   
   
   return (
@@ -8,9 +8,16 @@ function NavItem({ icon, title, idx}) {
       className='h-12 flex justify-start items-center pl-4 text-base font-semibold gap-4 text-white hover:bg-[#58E186] hover:text-black cursor-pointer' 
       
     >
-      {icon}
-      {title}
+        <Link
+        to={`${to}`}
+        className="h-12 flex justify-start items-center gap-4">
+            {icon}
+            {title}
+        </Link>
+      {/* {icon}
+      {title} */}
     </div>
+    
   );
 }
 
