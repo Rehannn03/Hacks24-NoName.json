@@ -41,7 +41,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[29px] font-medium max-w-3xl leading-[30px]'
       >
-        Using our Ai helps in early diagnosis of diseases that can be detected from a Chest Xray Scan   
+        Using our platform, both medical professionals and patients can easily manage their records.   
 
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -25,7 +25,7 @@ function SidebarNavItems() {
       <NavItem
         icon={<Person />}
         title="Patient List"
-        to='/dashboard/patientlist'
+        to='patientlist'
         
       />
       <NavItem

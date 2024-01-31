@@ -49,16 +49,16 @@ const Contact = () => {
                             <br />
                             Bilal <br />
                             <br />
-                            Affaan
+                            Vivek
                             <br />
                             <br />
-                            Azhar
+                            Maaz
                         </div>
                     </div>
                     <div className="absolute sm:w-[427px] h-[223px] w-[300px] top-[214px] left-[188px] ">
                         <p className="absolute sm:top-[68px] sm:left-[3px] w-[415px] h-[155px] top-[120px] left-[-100px] [font-family:'Outfit-Regular',Helvetica] font-normal text-white text-[18px] tracking-[0] leading-[normal]">
                             eX-well is a freely accessible web-based <br />
-                            platform that enable users to upload Chest X-ray Scans and get readings.
+                            platform that enable patients and medical proffesionals to maintian their records.
                         </p>
                         <div className="absolute w-[247px] h-[98px] sm:top-0 sm:left-0 top-[20px] left-[-100px] [font-family:'Outfit-ExtraBold',Helvetica] font-extrabold text-white text-[50px] tracking-[0] leading-[normal] underline">
                             eX-Well

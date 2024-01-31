@@ -13,7 +13,7 @@ const navLinks = [
 
 const services = [
   {
-    title: "Affaan Arbani",
+    title: "vivek chouhan",
     icon: affaanV,
   },
   {
@@ -25,18 +25,18 @@ const services = [
     icon: RehanV,
   },
   {
-    title: "Love Jihadi",
+    title: "Maaz Shaikh",
     icon: mate4,
   },
 ];
 
 const experiences = [
   {
-    title: "Upload Your Chest X-ray Scan",
+    title: "Upload Your Diagnosis Report",
     icon: upload,
     iconBg: "#58E186",
     points: [
-      "Upload your chest X-ray scan by either taking the photo of the hard copy of the Xray or direct uploading the file"
+      "Upload your diagnosis report in pdf format",
     ],
   },
   { 
