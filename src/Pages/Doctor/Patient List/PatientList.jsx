@@ -33,6 +33,36 @@ const PatientList = ({  onAcceptAppointment, onRejectAppointment }) => {
       time: "3:30 PM",
       reason: "Physical examination",
     },
+    {
+      id: 4,
+      patient: {
+        name: "Michael Scoot",
+        age: 35,
+      },
+      date: '12/05/2024', // February 12th, 2024
+      time: "5:30 PM",
+      reason: "Blood Report",
+    },
+    {
+      id: 5,
+      patient: {
+        name: "Dwight Schrute",
+        age: 25,
+      },
+      date: '15/02/2024', // February 12th, 2024
+      time: "1:30 PM",
+      reason: "Covid Report",
+    },
+    {
+      id: 6,
+      patient: {
+        name: "Chung Lee",
+        age: 30,
+      },
+      date: '12/02/2024', // February 12th, 2024
+      time: "3:30 PM",
+      reason: "Physical examination",
+    },
   ];
   const handleSelectAppointment = (appointment) => {
     setSelectedAppointment(appointment);

@@ -3,7 +3,7 @@ import SidebarNavItems from './Sidebar/SideBarNavItem'
 import Sidebar from './Sidebar/Sidebar'
 import { Outlet } from 'react-router-dom'
 
-function Dashboard() {
+function PatientDashboard() {
   return (
     <div>
         <Sidebar/>
@@ -12,4 +12,4 @@ function Dashboard() {
   )
 }
 
-export default Dashboard
+export default PatientDashboard

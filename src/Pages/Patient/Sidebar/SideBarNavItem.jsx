@@ -15,13 +15,13 @@ function SidebarNavItems() {
       <NavItem
         icon={<InfoCircle className="text-light font-light" />}
         title="Reports"
-        to={"/dashboard/report"}
+        to={"/patient/report"}
         
       />
       <NavItem
         icon={<CalendarEvent />}
         title="Profile"
-        to={"/dashboard/profile"}
+        to={"/patient/profile"}
         
       />
       {/* <NavItem

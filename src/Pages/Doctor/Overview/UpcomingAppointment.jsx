@@ -8,11 +8,11 @@ const UpcomingAppointment = () => {
   ];
 
   return (
-    <div classNameName="container mx-auto p-4 ml-[-350px]">
+    <div className="container mx-auto p-4 ml-[-350px]">
       <div>
-        <h1 classNameName="font-bold mb-2">Upcoming Appointments</h1>
+        <h1 className="font-bold mb-2">Upcoming Appointments</h1>
       </div>
-      <div className="relative flex flex-col w-full h-full overflow-scroll text-gray-700 bg-white shadow-md bg-clip-border rounded-xl">
+      <div className="relative flex flex-col w-full h-full overflow-scroll text-gray-700 bg-white shadow-md bg-clip-border rounded-xl ">
         <table className="w-full text-left table-auto min-w-max">
           <thead>
             <tr>
